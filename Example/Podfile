@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JAPing_Example' do
+  pod 'JAPing', :path => '../'
+
+  target 'JAPing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
