@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21732A96BF4946FE48E269D948935325 /* JAPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CA4E322368A2839C88AD84B63FB4FB /* JAPing.m */; };
+		269BD554CBFB0401C06AED96E8D95C64 /* JAHostSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C561163BDE35BA1D32B404DA1A5E831 /* JAHostSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BDFFE97AB8E9D816BE5F755A8693 /* JAPing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02742099D43BEE94385D71D77220329F /* JAPing-dummy.m */; };
+		495EC54D81B17A4DB2235517268C26C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		53B6F0FDC05EFDC85621CA6225601CCF /* JAHostSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8F212734F11F4C430FFDE234F29F7 /* JAHostSelector.m */; };
+		53CF9B37B85D718B42CC6A7538F153EC /* Pods-JAPing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D72B788010C7888E32D0CE903D28EC /* Pods-JAPing_Example-dummy.m */; };
+		563642742C49799E7F152DCABD40DEBB /* Pods-JAPing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A67D133B8D5EEBA4A953838B46071FC /* Pods-JAPing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A42F833CF2B278E83545A311C881286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		614178F9A7316BF2B0EAD4EA9621842E /* Pods-JAPing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FE6243F410D8B72DB47FF9EB584C53 /* Pods-JAPing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62914796BCF538A10BCC857423D4932D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7C10D23F77794B942EEA94426636E6E3 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 25554DC922F1C174D6856FC667F6FF55 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8574EE4FDF4CB9B0289FD9B0BE128478 /* JAPing.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DA581779BA51F177667F168C347EB7 /* JAPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA80FAFDBFC4ABCC0D2C8517C12B6960 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 539F67A8D34F1E29B088960C54D5322B /* SimplePing.m */; };
+		F685E5A4BC5D909C57726594C4AA7669 /* JAPing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3264B3076997BB0E0848C4E29B8D78A5 /* JAPing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9ADA03889FCC5B3E175FD10CAF1867 /* Pods-JAPing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 179B5D6A4B8B27CC1EA9B55CD2E9C40A /* Pods-JAPing_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25CF8F6F6EAEB736EB724AEE9FFD73B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DCDBE031F95279ADFC635D11FA91A96;
+			remoteInfo = "Pods-JAPing_Example";
+		};
+		F7E20F11DB37AFAEB920987165D10265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AD682626BF0CD8C64BD8D9B7E474D2;
+			remoteInfo = JAPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02742099D43BEE94385D71D77220329F /* JAPing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAPing-dummy.m"; sourceTree = "<group>"; };
+		0A67D133B8D5EEBA4A953838B46071FC /* Pods-JAPing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAPing_Example-umbrella.h"; sourceTree = "<group>"; };
+		0CFDE199FA4393DF0CFCF9981EF6A5A6 /* Pods-JAPing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPing_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F7AE74D3307C8ED96D70888437F3F68 /* Pods-JAPing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPing_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		179B5D6A4B8B27CC1EA9B55CD2E9C40A /* Pods-JAPing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAPing_Tests-dummy.m"; sourceTree = "<group>"; };
+		1AE8F212734F11F4C430FFDE234F29F7 /* JAHostSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHostSelector.m; path = JAPing/Classes/JAHostSelector.m; sourceTree = "<group>"; };
+		25554DC922F1C174D6856FC667F6FF55 /* SimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		31DA581779BA51F177667F168C347EB7 /* JAPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAPing.h; path = JAPing/Classes/JAPing.h; sourceTree = "<group>"; };
+		3264B3076997BB0E0848C4E29B8D78A5 /* JAPing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAPing-umbrella.h"; sourceTree = "<group>"; };
+		33D72B788010C7888E32D0CE903D28EC /* Pods-JAPing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAPing_Example-dummy.m"; sourceTree = "<group>"; };
+		3B375B6B3252FC6964AB7F2F69BA3116 /* JAPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JAPing.framework; path = JAPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C959EE5A09410F3BD2D02C1DA85A03E /* Pods-JAPing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		47F39F136C47A3A7C0CBC1367BB0E8CA /* Pods_JAPing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAPing_Tests.framework; path = "Pods-JAPing_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C561163BDE35BA1D32B404DA1A5E831 /* JAHostSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHostSelector.h; path = JAPing/Classes/JAHostSelector.h; sourceTree = "<group>"; };
+		515640A11B0B0357599F12F64ABC2F5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539F67A8D34F1E29B088960C54D5322B /* SimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60B8542EEC0DDB68D148FEF8A770383D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		61AE03E1CF213278B7D6BB6CC92FAD9A /* Pods-JAPing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAPing_Tests.modulemap"; sourceTree = "<group>"; };
+		6267A6479B7AEF6EB83AA0C54C1E4524 /* Pods-JAPing_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPing_Example-resources.sh"; sourceTree = "<group>"; };
+		659CA06480FB55D69EA25CB338F7184E /* Pods-JAPing_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPing_Tests-resources.sh"; sourceTree = "<group>"; };
+		65CA4E322368A2839C88AD84B63FB4FB /* JAPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAPing.m; path = JAPing/Classes/JAPing.m; sourceTree = "<group>"; };
+		6B2B7F97F7219896894AD3FF7D577AFF /* JAPing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAPing-prefix.pch"; sourceTree = "<group>"; };
+		7D0A9CC403EA25D0209FD8647A223897 /* Pods-JAPing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPing_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		83FE6243F410D8B72DB47FF9EB584C53 /* Pods-JAPing_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAPing_Tests-umbrella.h"; sourceTree = "<group>"; };
+		88468BEB943028653EBF27FF77E36232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA7578F74E00938D6C060455EC21436 /* Pods-JAPing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAPing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9436F76141BAD39C3D09C01A1BDB0749 /* JAPing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAPing.xcconfig; sourceTree = "<group>"; };
+		9596A3AB433C24F6E96DD65976820784 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C2EA482A6F1EA39DE5981543B00418C9 /* Pods-JAPing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAPing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5FE6C7A227982918222A3E108501899 /* Pods-JAPing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAPing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C97ED595D6384D9811A657FD62E36396 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFA4EF4F11B447C40DDCE294AB5F09F /* Pods-JAPing_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPing_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D841F5FABC8570F357B6341EA72BC552 /* JAPing.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JAPing.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1923FFD97A74BD8E19DF32F40B49C72 /* Pods-JAPing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAPing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E33DFACD5B211D05DAFC73580F69D021 /* Pods_JAPing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAPing_Example.framework; path = "Pods-JAPing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DBF4CD9FA08D725193C151B16A13A9 /* JAPing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JAPing.modulemap; sourceTree = "<group>"; };
+		F331B874DC766548472B3DCED52C94EF /* Pods-JAPing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPing_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F540AF9EDDA497CEBD57E9BB3161AB53 /* Pods-JAPing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAPing_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2D0FE09249225A89E13EFBBC1D4019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495EC54D81B17A4DB2235517268C26C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCF835B32EEB8CD16C44357B720C9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62914796BCF538A10BCC857423D4932D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE44531A7E0704B5EB2630082CA92242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A42F833CF2B278E83545A311C881286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFD9377609649C1F04A9BEDFCFF5DFF /* JAPing */ = {
+			isa = PBXGroup;
+			children = (
+				4C561163BDE35BA1D32B404DA1A5E831 /* JAHostSelector.h */,
+				1AE8F212734F11F4C430FFDE234F29F7 /* JAHostSelector.m */,
+				31DA581779BA51F177667F168C347EB7 /* JAPing.h */,
+				65CA4E322368A2839C88AD84B63FB4FB /* JAPing.m */,
+				A1415C3897DD61617A1BF4E4FB4460B7 /* Pod */,
+				905483EDFC2E71C8A6C93837C8E699CC /* SimplePing */,
+				86F075E1D215F6A582AC4EA02433EC16 /* Support Files */,
+			);
+			name = JAPing;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		594D9D2CEF4B4C93F3EA530D2A8FB154 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD9377609649C1F04A9BEDFCFF5DFF /* JAPing */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59BB13411AC99A0F198721BBCCD57CC5 /* Pods-JAPing_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				515640A11B0B0357599F12F64ABC2F5A /* Info.plist */,
+				61AE03E1CF213278B7D6BB6CC92FAD9A /* Pods-JAPing_Tests.modulemap */,
+				C2EA482A6F1EA39DE5981543B00418C9 /* Pods-JAPing_Tests-acknowledgements.markdown */,
+				8BA7578F74E00938D6C060455EC21436 /* Pods-JAPing_Tests-acknowledgements.plist */,
+				179B5D6A4B8B27CC1EA9B55CD2E9C40A /* Pods-JAPing_Tests-dummy.m */,
+				CBFA4EF4F11B447C40DDCE294AB5F09F /* Pods-JAPing_Tests-frameworks.sh */,
+				659CA06480FB55D69EA25CB338F7184E /* Pods-JAPing_Tests-resources.sh */,
+				83FE6243F410D8B72DB47FF9EB584C53 /* Pods-JAPing_Tests-umbrella.h */,
+				3C959EE5A09410F3BD2D02C1DA85A03E /* Pods-JAPing_Tests.debug.xcconfig */,
+				0F7AE74D3307C8ED96D70888437F3F68 /* Pods-JAPing_Tests.release.xcconfig */,
+			);
+			name = "Pods-JAPing_Tests";
+			path = "Target Support Files/Pods-JAPing_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AAA250656EBBAEC03689606E66896C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B375B6B3252FC6964AB7F2F69BA3116 /* JAPing.framework */,
+				E33DFACD5B211D05DAFC73580F69D021 /* Pods_JAPing_Example.framework */,
+				47F39F136C47A3A7C0CBC1367BB0E8CA /* Pods_JAPing_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				594D9D2CEF4B4C93F3EA530D2A8FB154 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7AAA250656EBBAEC03689606E66896C1 /* Products */,
+				9E24DD910FAC441C4ACE713561F1E98D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86F075E1D215F6A582AC4EA02433EC16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88468BEB943028653EBF27FF77E36232 /* Info.plist */,
+				E5DBF4CD9FA08D725193C151B16A13A9 /* JAPing.modulemap */,
+				9436F76141BAD39C3D09C01A1BDB0749 /* JAPing.xcconfig */,
+				02742099D43BEE94385D71D77220329F /* JAPing-dummy.m */,
+				6B2B7F97F7219896894AD3FF7D577AFF /* JAPing-prefix.pch */,
+				3264B3076997BB0E0848C4E29B8D78A5 /* JAPing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JAPing";
+			sourceTree = "<group>";
+		};
+		905483EDFC2E71C8A6C93837C8E699CC /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				25554DC922F1C174D6856FC667F6FF55 /* SimplePing.h */,
+				539F67A8D34F1E29B088960C54D5322B /* SimplePing.m */,
+			);
+			name = SimplePing;
+			path = JAPing/Classes/SimplePing;
+			sourceTree = "<group>";
+		};
+		9E24DD910FAC441C4ACE713561F1E98D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3BBF783ABA2C445D628DE5C27D883 /* Pods-JAPing_Example */,
+				59BB13411AC99A0F198721BBCCD57CC5 /* Pods-JAPing_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1415C3897DD61617A1BF4E4FB4460B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D841F5FABC8570F357B6341EA72BC552 /* JAPing.podspec */,
+				9596A3AB433C24F6E96DD65976820784 /* LICENSE */,
+				60B8542EEC0DDB68D148FEF8A770383D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3C3BBF783ABA2C445D628DE5C27D883 /* Pods-JAPing_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C97ED595D6384D9811A657FD62E36396 /* Info.plist */,
+				F540AF9EDDA497CEBD57E9BB3161AB53 /* Pods-JAPing_Example.modulemap */,
+				E1923FFD97A74BD8E19DF32F40B49C72 /* Pods-JAPing_Example-acknowledgements.markdown */,
+				C5FE6C7A227982918222A3E108501899 /* Pods-JAPing_Example-acknowledgements.plist */,
+				33D72B788010C7888E32D0CE903D28EC /* Pods-JAPing_Example-dummy.m */,
+				0CFDE199FA4393DF0CFCF9981EF6A5A6 /* Pods-JAPing_Example-frameworks.sh */,
+				6267A6479B7AEF6EB83AA0C54C1E4524 /* Pods-JAPing_Example-resources.sh */,
+				0A67D133B8D5EEBA4A953838B46071FC /* Pods-JAPing_Example-umbrella.h */,
+				7D0A9CC403EA25D0209FD8647A223897 /* Pods-JAPing_Example.debug.xcconfig */,
+				F331B874DC766548472B3DCED52C94EF /* Pods-JAPing_Example.release.xcconfig */,
+			);
+			name = "Pods-JAPing_Example";
+			path = "Target Support Files/Pods-JAPing_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B53D88E2642ADBA9C0A8629A799888C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614178F9A7316BF2B0EAD4EA9621842E /* Pods-JAPing_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EE11C6CB40A8C1D7B637E46E9C0785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563642742C49799E7F152DCABD40DEBB /* Pods-JAPing_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20D3647F59C001EA6D28026FE38970 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269BD554CBFB0401C06AED96E8D95C64 /* JAHostSelector.h in Headers */,
+				F685E5A4BC5D909C57726594C4AA7669 /* JAPing-umbrella.h in Headers */,
+				8574EE4FDF4CB9B0289FD9B0BE128478 /* JAPing.h in Headers */,
+				7C10D23F77794B942EEA94426636E6E3 /* SimplePing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DCDBE031F95279ADFC635D11FA91A96 /* Pods-JAPing_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E4896CD895D482FD06AABA034196CA /* Build configuration list for PBXNativeTarget "Pods-JAPing_Example" */;
+			buildPhases = (
+				EC2249EA40F60ABDFE6152C49FA27627 /* Sources */,
+				AE44531A7E0704B5EB2630082CA92242 /* Frameworks */,
+				C6EE11C6CB40A8C1D7B637E46E9C0785 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8123738D0E8011F628FCDB920F228E /* PBXTargetDependency */,
+			);
+			name = "Pods-JAPing_Example";
+			productName = "Pods-JAPing_Example";
+			productReference = E33DFACD5B211D05DAFC73580F69D021 /* Pods_JAPing_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68253E9B725E5FB43487B092E5A8D59B /* Pods-JAPing_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A99850F11B47F0F7FFAF3FB6F084FB6 /* Build configuration list for PBXNativeTarget "Pods-JAPing_Tests" */;
+			buildPhases = (
+				0179927563DA921EA11AE29B9F3CC1F9 /* Sources */,
+				9BCF835B32EEB8CD16C44357B720C9E0 /* Frameworks */,
+				B53D88E2642ADBA9C0A8629A799888C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62709469E7299C6E598844708956114A /* PBXTargetDependency */,
+			);
+			name = "Pods-JAPing_Tests";
+			productName = "Pods-JAPing_Tests";
+			productReference = 47F39F136C47A3A7C0CBC1367BB0E8CA /* Pods_JAPing_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5AD682626BF0CD8C64BD8D9B7E474D2 /* JAPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1CB3DF0E6A42F722E95596DF3AFEFEF /* Build configuration list for PBXNativeTarget "JAPing" */;
+			buildPhases = (
+				72C05A9A32CF1D3085354214E9A859BA /* Sources */,
+				2C2D0FE09249225A89E13EFBBC1D4019 /* Frameworks */,
+				DA20D3647F59C001EA6D28026FE38970 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAPing;
+			productName = JAPing;
+			productReference = 3B375B6B3252FC6964AB7F2F69BA3116 /* JAPing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7AAA250656EBBAEC03689606E66896C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AD682626BF0CD8C64BD8D9B7E474D2 /* JAPing */,
+				4DCDBE031F95279ADFC635D11FA91A96 /* Pods-JAPing_Example */,
+				68253E9B725E5FB43487B092E5A8D59B /* Pods-JAPing_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0179927563DA921EA11AE29B9F3CC1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9ADA03889FCC5B3E175FD10CAF1867 /* Pods-JAPing_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C05A9A32CF1D3085354214E9A859BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6F0FDC05EFDC85621CA6225601CCF /* JAHostSelector.m in Sources */,
+				2B61BDFFE97AB8E9D816BE5F755A8693 /* JAPing-dummy.m in Sources */,
+				21732A96BF4946FE48E269D948935325 /* JAPing.m in Sources */,
+				DA80FAFDBFC4ABCC0D2C8517C12B6960 /* SimplePing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2249EA40F60ABDFE6152C49FA27627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CF9B37B85D718B42CC6A7538F153EC /* Pods-JAPing_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62709469E7299C6E598844708956114A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JAPing_Example";
+			target = 4DCDBE031F95279ADFC635D11FA91A96 /* Pods-JAPing_Example */;
+			targetProxy = 25CF8F6F6EAEB736EB724AEE9FFD73B4 /* PBXContainerItemProxy */;
+		};
+		EE8123738D0E8011F628FCDB920F228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAPing;
+			target = B5AD682626BF0CD8C64BD8D9B7E474D2 /* JAPing */;
+			targetProxy = F7E20F11DB37AFAEB920987165D10265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21C014EB14BA44DECA3C517C79A3CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7AE74D3307C8ED96D70888437F3F68 /* Pods-JAPing_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAPing_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAPing_Tests/Pods-JAPing_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B4FCA34759CD0F0AEA65809554330A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0A9CC403EA25D0209FD8647A223897 /* Pods-JAPing_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAPing_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAPing_Example/Pods-JAPing_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82ED424DD6208BB83FE4EFB4A882C7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F331B874DC766548472B3DCED52C94EF /* Pods-JAPing_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAPing_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAPing_Example/Pods-JAPing_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83575217BC5B486B2388729D2D340842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9436F76141BAD39C3D09C01A1BDB0749 /* JAPing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAPing/JAPing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAPing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAPing/JAPing.modulemap";
+				PRODUCT_MODULE_NAME = JAPing;
+				PRODUCT_NAME = JAPing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D7697AEDDDBDC9A383C958BBECAC47DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C959EE5A09410F3BD2D02C1DA85A03E /* Pods-JAPing_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAPing_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAPing_Tests/Pods-JAPing_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F486930193FDCE282DF99081D399DED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9436F76141BAD39C3D09C01A1BDB0749 /* JAPing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAPing/JAPing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAPing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAPing/JAPing.modulemap";
+				PRODUCT_MODULE_NAME = JAPing;
+				PRODUCT_NAME = JAPing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A99850F11B47F0F7FFAF3FB6F084FB6 /* Build configuration list for PBXNativeTarget "Pods-JAPing_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7697AEDDDBDC9A383C958BBECAC47DE /* Debug */,
+				21C014EB14BA44DECA3C517C79A3CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E4896CD895D482FD06AABA034196CA /* Build configuration list for PBXNativeTarget "Pods-JAPing_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4FCA34759CD0F0AEA65809554330A0 /* Debug */,
+				82ED424DD6208BB83FE4EFB4A882C7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1CB3DF0E6A42F722E95596DF3AFEFEF /* Build configuration list for PBXNativeTarget "JAPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83575217BC5B486B2388729D2D340842 /* Debug */,
+				F486930193FDCE282DF99081D399DED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

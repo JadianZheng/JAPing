@@ -1,0 +1,22 @@
+{
+  "name": "JAPing",
+  "version": "0.1.0",
+  "summary": "A short description of JAPing.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JadianZheng/JAPing",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JadianZheng": "jia.sheng@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/JadianZheng/JAPing.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JAPing/Classes/**/*"
+}

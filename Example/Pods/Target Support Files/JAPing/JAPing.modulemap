@@ -1,0 +1,6 @@
+framework module JAPing {
+  umbrella header "JAPing-umbrella.h"
+
+  export *
+  module * { export * }
+}

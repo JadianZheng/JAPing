@@ -1,0 +1,16 @@
+PODS:
+  - JAPing (0.1.0)
+
+DEPENDENCIES:
+  - JAPing (from `../`)
+
+EXTERNAL SOURCES:
+  JAPing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JAPing: 69f8dda2665ea110b85e668a5ff657cc26fa8311
+
+PODFILE CHECKSUM: 4fd24534942f398f84b59a8f32bdba6f6cb01c5e
+
+COCOAPODS: 1.5.3
