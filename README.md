@@ -22,7 +22,7 @@ pod 'JAPing'
 
 ## Author
 
-JadianZheng, jia.sheng@qq.com
+JadianZheng, jadianzheng@gmail.com
 
 ## License
 
